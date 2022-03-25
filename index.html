@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Music Tuner</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="notes">
+        ?
+      </div>
+      <div id="frequency">
+        <!-- make a background for the needle -->
+        0 Hz
+      </div>
+      <div id="meter">
+        <img id="needle" src="https://cdn.glitch.global/7c5ff6f3-8b05-4e21-8942-d609480eacdd/Vertical-Line-PNG-Images.png?v=1645553871225" \>
+      </div>
+      <div>
+        <meter id="decibels" min="0" max="40" value="0">
+          0 db
+        </meter>
+      </div>
+      <button id="start">
+        start
+      </button>
+    </div>
+  </body>
+</html>

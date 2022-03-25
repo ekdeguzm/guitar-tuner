@@ -1,0 +1,45 @@
+body {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  height: 100%;
+  display: flex;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+
+#container {
+  color: #ffffff;
+  background: #2d2d2d;
+  padding: 12px;
+  display: inline-block;
+  width: 400px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#notes {
+  height: 1.5em;
+}
+
+#frequency {
+  height: 1.5em;
+}
+
+#meter {
+  height: 300px;
+  width: 300px;
+  background-image: url( 'https://cdn.glitch.global/7c5ff6f3-8b05-4e21-8942-d609480eacdd/GaugeBackground.svg?v=1646245730350' );
+  background-size: 300px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#needle {
+  transform: rotate(0deg);
+  transform-origin: bottom center;
+  height: 150px;
+}
